@@ -1,0 +1,306 @@
+$color_1: azure;
+$color_2: antiquewhite;
+$color_3: rgb(14, 34, 105);
+$color_4: rgb(15, 33, 92);
+$color_5: rgb(255, 255, 255);
+$color_6: rgb(255, 250, 250);
+$color_7: rgb(135, 25, 25);
+$font-family_1: sans-serif;
+$font-family_2: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+$background-color_1: rgba(71, 73, 74, 0.836);
+$background-color_2: antiquewhite;
+$background-color_3: rgb(31, 103, 123);
+$background-color_4: rgb(23, 22, 23);
+$background-color_5: rgb(31, 130, 183);
+$background-color_6: darkslateblue;
+$background-color_7: black;
+$background-color_8: rgba(17, 119, 17, 0.4666666667);
+$background-color_9: blueviolet;
+$background-color_10: chocolate;
+$background-color_11: rgb(9, 114, 194);
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+body {
+	text-align: center;
+	font-family: $font-family_1;
+}
+.body2 {
+	background: url(https://img.freepik.com/fotos-premium/papel-arrugado-blanco-fondo-texturizado-abstracto-hecho-papel-regalo-hoja-limpia-arrugada-diseno-diseno-imagen-fondo-blanco-negro-hermosos-pliegues-papel-producto-ecologico_553022-81.jpg);
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+.body3 {
+	background-color: $background-color_1;
+	height: 100vh;
+	display: grid;
+}
+.body4 {
+	background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+	display: flex;
+	min-height: 100vh;
+	width: 100%;
+}
+.form {
+	background-color: $background-color_2;
+	width: 80%;
+	max-width: 600px;
+	height: 300px;
+	border-radius: 1em;
+	padding: 3.5em 1.5em;
+	margin: auto;
+}
+.form__container {
+	width: 100%;
+	display: grid;
+	gap: 1em;
+	grid-auto-columns: 100%;
+}
+.form__title {
+	text-align: center;
+	font-size: 1.9rem;
+	margin-bottom: 0.4em;
+}
+.form__input {
+	font-size: 1rem;
+	padding: 0.8em 1em;
+	outline: none;
+	border: none;
+	border: 1px solid #bbb0b0;
+	border-radius: 0.2em;
+}
+.form__input--message {
+	resize: none;
+	padding: 1.8em 1em;
+	margin-bottom: 0.5em;
+}
+.form__cta {
+	background-color: $background-color_3;
+	color: $color_1;
+	border: none;
+	font-weight: 300;
+	font-size: 1rem;
+	padding: 0.7em 0;
+	border-radius: 0.2em;
+	cursor: pointer;
+	font-weight: 400;
+}
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	padding: 20px;
+	grid: gap 40px;
+}
+.card {
+	background-color: $background-color_4;
+	border-radius: 20px;
+}
+.container {
+	position: relative;
+}
+img {
+	width: 100%;
+	display: block;
+	border-radius: 20px 20px 0 0;
+}
+.parrafo {
+	box-sizing: border-box;
+	font-family: $font-family_2;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 60px;
+	justify-content: center;
+	align-items: center;
+	border-top: 6px solid rgb(136, 23, 23);
+	img {
+		width: 200px;
+		height: 200px;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	p {
+		font-size: 18px;
+		font-weight: 300;
+	}
+}
+.libro1 {
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+.head {
+	display: flex;
+	justify-content: space-between;
+	height: 63px;
+	background-color: $background-color_5;
+	position: fixed;
+	width: 100%;
+	z-index: 100%;
+}
+.navbar {
+	display: flex;
+	margin-right: 10px;
+	a {
+		display: block;
+		padding: 20px 20px;
+		color: $color_2;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 20px;
+		&:hover {
+			background-color: $background-color_6;
+		}
+	}
+}
+.logo {
+	margin-left: 30px;
+	a {
+		text-decoration: none;
+		color: $color_2;
+		text-transform: uppercase;
+		font-size: 20px;
+	}
+}
+.nav-brand {
+	width: 63px;
+}
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+	background: url(https://png.pngtree.com/background/20210706/original/pngtree-stationary-books-paper-desk-background-picture-image_23298.jpg) no-repeat center;
+	background-size: cover;
+}
+.title {
+	margin-bottom: 40px;
+	font-size: 60px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: $color_3;
+}
+p {
+	margin-bottom: 40px;
+	font-size: 18px;
+	color: $color_4;
+	padding: 0 100px;
+}
+.btn {
+	display: inline-block;
+	margin-top: 15px;
+	padding: 10px 40px;
+	border: 2px solid black;
+	color: $color_5;
+	text-decoration: none;
+	background-color: $background-color_7;
+	&:hover {
+		background: none;
+	}
+}
+.content {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.sau {
+	padding: 50px 0;
+	background: url(https://static.vecteezy.com/system/resources/previews/006/188/152/non_2x/seamless-pattern-doodle-many-icons-of-books-scattered-background-for-education-elearning-school-concept-pile-of-paper-books-open-book-book-on-computer-screen-ebooks-glasses-heart-vector.jpg) no-repeat center;
+	background-size: cover;
+}
+.box-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	.box {
+		height: 170px;
+		width: 270px;
+		background-color: $background-color_8;
+		text-align: center;
+		border-radius: 20px;
+		box-shadow: 0 5px;
+		margin: 20px;
+	}
+}
+.price {
+	background-color: $background-color_8;
+}
+.about {
+	background-color: $background-color_9;
+}
+.contact {
+	background-color: $background-color_10;
+}
+.footer-section {
+	display: flex;
+	text-align: center;
+}
+.f-enlaces {
+	display: flex;
+	flex-direction: column;
+	margin: 0 100px;
+	a {
+		color: $color_2;
+		text-decoration: none;
+		margin-top: 20px;
+		align-items: center;
+		text-align: center;
+	}
+}
+.footer {
+	background-color: $background-color_11;
+	color: $color_6;
+	font-size: 12px;
+	padding: 20px 0px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.social {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: $color_7;
+	background-color: $background-color_10;
+	justify-content: center;
+}
+@media (max-width: 450px) {
+	.form {
+		padding: 3.5em 1em;
+	}
+}
+@media (max-width: 750px) {
+	p {
+		padding: 0 50px;
+	}
+	.title {
+		margin-bottom: 0px;
+		font-size: 40px;
+	}
+	.sau {
+		height: 80vh;
+		padding: 50px 0;
+	}
+	.about {
+		height: 80vh;
+		padding: 50px 0;
+	}
+	.footer-section {
+		display: flex;
+		flex-direction: column;
+	}
+	.f-enlaces {
+		display: none;
+	}
+	.navbar {
+		display: none;
+	}
+}

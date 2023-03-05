@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.body2 {
+  background: url(https://img.freepik.com/fotos-premium/papel-arrugado-blanco-fondo-texturizado-abstracto-hecho-papel-regalo-hoja-limpia-arrugada-diseno-diseno-imagen-fondo-blanco-negro-hermosos-pliegues-papel-producto-ecologico_553022-81.jpg);
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.body3 {
+  background-color: rgba(71, 73, 74, 0.836);
+  height: 100vh;
+  display: grid;
+}
+
+.body4 {
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.form {
+  background-color: antiquewhite;
+  width: 80%;
+  max-width: 600px;
+  height: 300px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+  margin: auto;
+}
+
+.form__container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.form__title {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 0.4em;
+}
+
+.form__input {
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+  border-radius: 0.2em;
+}
+
+.form__input--message {
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: 0.5em;
+}
+
+.form__cta {
+  background-color: rgb(31, 103, 123);
+  color: azure;
+  border: none;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 0.7em 0;
+  border-radius: 0.2em;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  padding: 20px;
+  grid: gap 40px;
+}
+
+.card {
+  background-color: rgb(23, 22, 23);
+  border-radius: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+
+.parrafo {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+  border-top: 6px solid rgb(136, 23, 23);
+}
+.parrafo img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.parrafo p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.libro1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  height: 63px;
+  background-color: rgb(31, 130, 183);
+  position: fixed;
+  width: 100%;
+  z-index: 100%;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 10px;
+}
+.navbar a {
+  display: block;
+  padding: 20px 20px;
+  color: antiquewhite;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.navbar a:hover {
+  background-color: darkslateblue;
+}
+
+.logo {
+  margin-left: 30px;
+}
+.logo a {
+  text-decoration: none;
+  color: antiquewhite;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.nav-brand {
+  width: 63px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background: url(https://png.pngtree.com/background/20210706/original/pngtree-stationary-books-paper-desk-background-picture-image_23298.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(14, 34, 105);
+}
+
+p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: rgb(15, 33, 92);
+  padding: 0 100px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid black;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: black;
+}
+.btn:hover {
+  background: none;
+}
+
+.content {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sau {
+  padding: 50px 0;
+  background: url(https://static.vecteezy.com/system/resources/previews/006/188/152/non_2x/seamless-pattern-doodle-many-icons-of-books-scattered-background-for-education-elearning-school-concept-pile-of-paper-books-open-book-book-on-computer-screen-ebooks-glasses-heart-vector.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.box-container .box {
+  height: 170px;
+  width: 270px;
+  background-color: rgba(17, 119, 17, 0.4666666667);
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 5px;
+  margin: 20px;
+}
+
+.price {
+  background-color: rgba(17, 119, 17, 0.4666666667);
+}
+
+.about {
+  background-color: blueviolet;
+}
+
+.contact {
+  background-color: chocolate;
+}
+
+.footer-section {
+  display: flex;
+  text-align: center;
+}
+
+.f-enlaces {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px;
+}
+.f-enlaces a {
+  color: antiquewhite;
+  text-decoration: none;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(9, 114, 194);
+  color: rgb(255, 250, 250);
+  font-size: 12px;
+  padding: 20px 0px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.social {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(135, 25, 25);
+  background-color: chocolate;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .form {
+    padding: 3.5em 1em;
+  }
+}
+@media (max-width: 750px) {
+  p {
+    padding: 0 50px;
+  }
+  .title {
+    margin-bottom: 0px;
+    font-size: 40px;
+  }
+  .sau {
+    height: 80vh;
+    padding: 50px 0;
+  }
+  .about {
+    height: 80vh;
+    padding: 50px 0;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .f-enlaces {
+    display: none;
+  }
+  .navbar {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
